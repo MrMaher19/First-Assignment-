@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 83vw;
+    background-image: linear-gradient(to bottom,#070211, #07021100),url('Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 7vh auto;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: Merriweather;
+    border-radius: 0.83vw;
+}
+
+.banner-container {
+    padding: 23vh 15vw;
+}
+
+.banner-container > h3 {
+    font-size: 2.4vw;
+    line-height: 40.22px;
+    font-weight: 400;
+}
+
+.banner-container h1 {
+    font-size: 4.6vw;
+    line-height: 95px;
+    font-weight: 900;
+}
+
+.all-categories {
+    width: 55vw;
+    height: 119vh;
+    margin: 11.11vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter;
+}
+
+.all-categories img {
+    width: 100%;
+    height: auto;
+    padding: 6vh 0 0 0;
+}
+
+.all-categories h1 {
+    color: #FF0000;
+    font-size: 6.8vw;
+    font-weight: 700;
+    line-height: 106.5px;
+}
+
+.all-categories h6 {
+    color: #FF0000;
+    font-size: 1.8vw;
+    font-weight: 500;
+    padding: 6vh 0 0 0;
+    line-height: 29.05px;
+}
+
+.all-categories h2 {
+    color: black;
+    font-size: 3.5vw;
+    font-weight: 700;
+    padding: 1.4vh 0 0 0;
+    line-height: 58.09px;
+}
+
+.welcome {
+    width: 83vw;
+    height: 80vh;
+    background-image:linear-gradient(to right,#070211, #07021100),url(Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 147vh 0 0 0;
+    color: white;
+    border-radius:0.83vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.welcome-text h1{
+    font-family: Merriweather;
+    font-size: 5vw;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0.11em;
+}
+
+.welcome-text p{
+    color: #FFFFFFCC;
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.welcome-text button{
+    font-family: Inter;
+    font-size: 1.7vw;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+}
+
+.welcome-text button:hover{
+    color:rgb(253, 193, 81);
+    font-size: 1.9vw;
+    transition-duration: 0.5s;
+}
+
+.welcome-img img{
+    width: 20vw;
+    height: 60vh;
+}
+
+.invite{
+    width:83vw;
+    height:80vh;
+    margin: 22.22vh 0 0 0;
+    background: linear-gradient(to bottom,#fddede, #FF000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-details {
+    color:black; 
+    font-weight: 600;
+    font-family: Inter;
+    text-align: center;
+    line-height: 56px;
+}
+
+.event-details p {
+    font-size: 2.5vw;
+    margin-bottom: 1.5vh;
+}
+
+.event-details span {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+.event-details .place {
+    margin-right: 10px;
+}
+
+.join-invite{
+    width: 12vw;
+    height: 10vh;
+    font-family: Inter;
+    font-size: 1.7vw;
+    font-weight: 700;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+.join-invite:hover{
+    background-color: green;
+    transition-duration: 0.5s;
+    border: 1px solid green;
+}
+
+.new-best-offer{
+    width:83vw;
+    height:80vh;
+    margin: 22.22vh 0 0 0;
+    background-color:white;
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-coming-soon h3{
+    color: red;
+    font-family: Inter;
+    font-size: 2vw;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.left-coming-soon h1{
+    font-family: Merriweather;
+    font-size: 3.5vw;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 5vh 0;
+}
+
+.left-coming-soon p{
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 2vw;
+    color: #242222cc;
+}
+
+.right-2024 h1{
+    font-family: Inter;
+    font-size: 3.5vw;
+    font-weight: 700;
+    line-height: 58px;
+    color: red;
+}
+
+.right-2024 p{
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 2vh 0;
+    color: #242222cc;
+}
+
+.right-2024 img{
+    width: 10vw;
+    height: 15vh;
+}
