@@ -199,7 +199,7 @@ body {
 
 .join-invite:hover{
     background-color: green;
-    font-size: 1.9vw;
+    font-size: 1.8vw;
     transition-duration: 0.5s;
     border: 1px solid green;
 }
@@ -268,6 +268,7 @@ body {
 }
 
 .portfolio-img img:hover {
+box-shadow: 0px 9px 30px rgba(218,102,123,1);
     border-radius: 50%;
     transition-duration: 0.7s;
 }
@@ -318,7 +319,7 @@ body {
     height: 9.5vh;
     background-color: red;
     color: white;
-    border: 1px solid red;
+    border: none;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     font-size: 1.3vw;
@@ -327,9 +328,9 @@ body {
 }
 
 .subscribe-btn button:hover{
-    background-color: green;
-    border: 1px solid green;
-    transition-duration: 0.5s;
+    background: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    color: black;
+    transition-duration: 0.7s;
     font-size: 1.5vw;
 }
 
@@ -373,6 +374,13 @@ footer{
     margin: 0 0.5vw; 
 }
 
+.social-media-container img:hover{
+    background-image: linear-gradient(43deg, #022cff 0%, #f903e9 46%, #f9a202 100%);
+    transition-duration: 0.5s;
+    padding: 0.2vw;
+    border-radius: 50%;
+}
+
 .social-media hr {
     width: 70%;
     border: 1px solid #FFFFFF26;
@@ -388,7 +396,7 @@ footer{
 }
 
 .copyright-unsubscribe .unsubscirbe-btn{
-    padding: 16vh 0 0 0;
+    padding: 16.5vh 0 0 0;
 }
 
 .unsubscirbe-btn button{
